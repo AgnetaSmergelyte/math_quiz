@@ -102,7 +102,6 @@ const countScore = () => {
 answers_inputs.forEach(input => {
     input.onclick = (e) => {
         answersPicked[questionNumber] = Number(input.value);
-        // console.log(answersPicked)
     };
 });
 btnPrev.onclick = () => {
@@ -116,7 +115,6 @@ btnPrev.onclick = () => {
 btnNext.onclick = () => {
     //if submit:
     if (questionNumber + 1 > quiz.length - 1) {
-        console.log(countScore());
         quizBox_div.style.display = "none";
         end_Div.style.display = "flex";
         score_span.textContent = String(countScore() + "/" + quiz.length);
