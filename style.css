@@ -11,7 +11,7 @@ h1, h2 {
 
 p, label {
   color: #916DB3;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .container {
@@ -20,7 +20,7 @@ p, label {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-top: 10vh;
   background-image: url("https://media.istockphoto.com/id/1246240850/vector/maths-seamless-pattern.jpg?s=612x612&w=0&k=20&c=VC0MO74O1jLMG749qLwd5NIzxOf5_hd9cNZbAxJVKOQ=");
   background-repeat: repeat;
 }
@@ -29,8 +29,8 @@ p, label {
   box-shadow: 0px 1px 15px 1px rgba(228, 133, 134, 0.5);
   -webkit-box-shadow: 0px 1px 15px 1px rgba(228, 133, 134, 0.5);
   -moz-box-shadow: 0px 1px 15px 1px rgba(228, 133, 134, 0.5);
-  width: 1000px;
-  max-width: 100vw;
+  width: 900px;
+  max-width: 95vw;
   background-color: #FDE5EC;
   padding: 50px;
   border-radius: 10px;
@@ -59,12 +59,12 @@ p, label {
   display: flex;
   align-items: center;
   justify-content: start;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .question-number {
-  width: 70px;
-  height: 40px;
+  width: 75px;
+  height: 45px;
   background-color: #FCBAAD;
   border-radius: 50%;
   display: flex;
@@ -78,9 +78,10 @@ p, label {
 }
 
 input[type=radio] {
-  margin: 15px 7px 0 0;
-  width: 15px;
-  height: 15px;
+  margin: 30px 7px 0 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  cursor: pointer;
 }
 
 .answers {
